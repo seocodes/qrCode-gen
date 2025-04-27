@@ -23,7 +23,7 @@ public class S3StorageAdapter implements StoragePort {
                 .build();
     }
 
-    //implemntando da interface StoragePort
+    //implementando da interface StoragePort
     //lembrando: interface é o contrato que define um conjunto de métodos que uma classe deve implementar
     @Override
     public String uploadFile(byte[] fileData, String fileName, String contentType){
